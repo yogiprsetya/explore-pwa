@@ -10,7 +10,7 @@ var urlsToCache = [
   "/css/materialize.min.css",
   "/js/materialize.min.js",
   "/js/nav.js",
-  "/img/icon.png"
+  "/img/logo-icon.png"
 ];
 
 self.addEventListener("install", function(event) {

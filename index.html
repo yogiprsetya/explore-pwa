@@ -9,29 +9,48 @@
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#00897B"/>
 
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!-- Navigasi -->
-  <nav class="teal lighten-1" role="navigation">
+  <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo" id="logo-container">My App</a>
-      <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+      <a href="#" class="brand-logo black-text">
+        <b>digiKit</b>
+      </a>
+      <a href="#" class="sidenav-trigger black-text" data-target="nav-mobile">☰</a>
 
       <ul class="topnav right hide-on-med-and-down"></ul>
       <ul class="sidenav" id="nav-mobile"></ul>
     </div>
   </nav>
 
-  <!-- Akhir Navigasi -->
-  <div class="container" id="body-content"></div>
+  <div id="body-content"></div>
+
+  <footer class="indigo darken-4 mt-5">
+    <div class="container row py-5 mb-0 white-text valign-wrapper">
+      <div class="col s4">
+        <img class="logo" src="img/logo-icon.png" />
+        <address class="mt-3">BigTech Valley Building SCBD.<br/>Kav 17. Jakarta. Indonesia</address>
+      </div>
+
+      <div class="col s8">
+        <div class="social-list right-align">
+          <span>Facebook</span>
+          <span>Linkedin</span>
+          <span>Instagram</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="js/materialize.min.js"></script>
   <script src="js/nav.js"></script>
 
-  <script>
-    // REGISTER SERVICE WORKER
+  <!-- <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function() {
         navigator.serviceWorker
@@ -46,6 +65,6 @@
     } else {
       console.log("ServiceWorker belum didukung browser ini.");
     }
-  </script>
+  </script> -->
 </body>
 </html>
