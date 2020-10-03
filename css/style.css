@@ -70,6 +70,10 @@ h3 {
   margin-left: 0 !important;
 }
 
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -77,6 +81,10 @@ h3 {
 .my-5 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.p-5 {
+  padding: 3rem
 }
 
 .py-5 {

@@ -1,11 +1,11 @@
 {
-  "name": "My First PWA",
-  "short_name": "My PWA",
-  "description": "Aplikasi PWA pertama saya",
-  "start_url": "/index.html",
+  "name": "digiKit",
+  "short_name": "digiKit",
+  "description": "PWA digiKit",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#00897B",
-  "theme_color": "#00897B",
+  "background_color": "#fff",
+  "theme_color": "#ff4081",
   "icons": [
     {
       "src": "img/logo-icon.png",

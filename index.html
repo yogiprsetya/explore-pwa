@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <title>My First PWA</title>
+  <title>digiKit - Digital Campign Master</title>
   <meta name="description" content="My first PWA"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#00897B"/>
+
+  <link rel="apple-touch-icon-precomposed" href="img/logo-icon.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="img/logo-icon.png">
+  <link rel="icon" href="img/logo-icon.png" sizes="32x32">
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -47,14 +52,11 @@
     </div>
   </footer>
 
-  <script src="js/materialize.min.js"></script>
-  <script src="js/nav.js"></script>
-
-  <!-- <script>
+  <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function() {
         navigator.serviceWorker
-          .register("/service-worker.js")
+          .register("/service-worker.js", { scope: '/' })
           .then(function() {
             console.log("Pendaftaran ServiceWorker berhasil");
           })
@@ -65,6 +67,9 @@
     } else {
       console.log("ServiceWorker belum didukung browser ini.");
     }
-  </script> -->
+  </script>
+
+  <script src="js/materialize.min.js"></script>
+  <script src="js/nav.js"></script>
 </body>
 </html>
