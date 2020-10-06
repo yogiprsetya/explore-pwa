@@ -1,7 +1,8 @@
 const CACHE_NAME = "explore-pwa.v2";
 
 var urlsToCache = [
-  "/",
+	"/",
+	"/manifest.json",
   "/nav.html",
   "/index.html",
   "/pages/home.html",
@@ -12,6 +13,7 @@ var urlsToCache = [
   "/js/materialize.min.js",
   "/js/nav.js",
   "/img/logo-icon.png",
+  "/img/logo-icon-192.png",
   "/img/logo-dark.png",
   "/img/bg/particle.svg",
   "/img/bg/box-particles.svg",
@@ -21,7 +23,9 @@ var urlsToCache = [
   "/img/content/app-illustration.png",
   "/img/content/company.jpg",
   "https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap",
-  "https://fonts.googleapis.com/icon?family=Material+Icons"
+	"https://fonts.googleapis.com/icon?family=Material+Icons",
+	"https://fonts.gstatic.com/s/rubik/v11/iJWKBXyIfDnIV7nBrXyw023e.woff2",
+	"https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2"
 ];
 
 self.addEventListener('install', function(event){
